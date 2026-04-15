@@ -6,6 +6,7 @@ public class Customer {
     String email;
     long mobileNumber;
     char gender;
+    int age;
 
 
 }
