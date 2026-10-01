@@ -23,4 +23,12 @@ public class Customer {
         this.age = age;
         this.mobileNumber = mobileNumber;
     }
+    void displayCustomerDetails(){
+        System.out.println("Name : " + name);
+        System.out.println("Id : " + id);
+        System.out.println("Email : " + email);
+        System.out.println("Age : " + age);
+        System.out.println("Mobile Number : " + mobileNumber);
+    }
+
 }

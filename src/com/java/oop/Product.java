@@ -14,4 +14,16 @@ public class Product {
         this.maxRetailPrice = maxRetailPrice;
         this.isAvailable = isAvailable;
     }
+    void displayProductDetails (){
+        System.out.println("Product Id : " + id);
+        System.out.println("Product name : " + name);
+        System.out.println("Product Discount Percentage : " + discountPercentage);
+        System.out.println("Product Price : " + maxRetailPrice);
+        System.out.println("Product in Stock : " + isAvailable);
+    }
+    void getSpace(){
+        System.out.println("  ");
+    }
+
+
 }
