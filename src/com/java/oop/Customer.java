@@ -7,6 +7,7 @@ public class Customer {
     String email;
     byte age;
     long mobileNumber;
+    char membership;
 
     public Customer() {
         name = "unknown";
@@ -44,7 +45,7 @@ public class Customer {
         this.mobileNumber = newMobileNumber;
     }
 
-    // Return customer name
+    // Return customer name qq
     String getCustomerName() {
         return name;
     }
