@@ -12,7 +12,7 @@ public class Customer {
     public Customer() {
         name = "unknown";
         id = 0;
-        email = "not available";
+        email = "Not available";
         age = 0;
         mobileNumber = 0;
     }
