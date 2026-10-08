@@ -78,5 +78,6 @@ public class Main {
 
         double discountedPrice = product.calculateDiscountedPrice();
         System.out.println("Discounted Price: " + discountedPrice);
+
     }
 }
